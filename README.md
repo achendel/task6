@@ -1,2 +1,2 @@
-# task6
+# task6 using terraform
 hi
