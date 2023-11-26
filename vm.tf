@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example" {
-  name     = "akshatha_t5"
-  location = "Canada Central"
+  name     = "akshathatask5"
+  location = "West US 2"
 }
 
 resource "azurerm_virtual_network" "example" {
