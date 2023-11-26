@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "example" {
-  name     = "akshatha_t5"
+  name     = "akshatha_task5"
   location = "Canada Central"
 }
 
