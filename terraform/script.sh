@@ -40,7 +40,7 @@ sudo -i -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE \"strapi-db\" TO a
 
 
 
-yes | npx create-strapi-app@latest my-project123 \
+yes | npx create-strapi-app@latest my-project123\
   --dbclient=postgres \
   --dbhost=127.0.0.1 \
   --dbname=strapi-db \
