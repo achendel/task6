@@ -40,7 +40,7 @@ sudo -i -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE \"strapi-db\" TO a
 
 
 
-yes | npx create-strapi-app@latest my-project123 \
+yes | npx create-strapi-app@latest my-project1 \
   --dbclient=postgres \
   --dbhost=127.0.0.1 \
   --dbname=strapi-db \
@@ -48,8 +48,8 @@ yes | npx create-strapi-app@latest my-project123 \
   --dbpassword=akki \
   --dbport=5432
 
-cd my-project123
+cd my-project1
 NODE_ENV=production npm run build
 
 
-nohup node /home/adminuser/my-project123/node_modules/.bin/strapi start > /dev/null 2>&1 &
+nohup node /home/adminuser/my-project1/node_modules/.bin/strapi start > /dev/null 2>&1 &
