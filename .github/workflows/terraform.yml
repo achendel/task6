@@ -32,5 +32,4 @@ jobs:
           terraform init --upgrade
           terraform plan
           terraform apply -auto-approve
-          sleep 100
-          terraform destroy
+          
